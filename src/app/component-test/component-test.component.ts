@@ -14,7 +14,10 @@ export class ComponentTestComponent implements OnInit {
   public isBorder : boolean = true;
   public isSpecial : boolean = true; // dữ liệu muốn hiển thị sang view
   public size : number = 20; // dữ liệu muốn hiển thị sang view
-
+  user = {
+    name: 'Abc',
+    addr: 'Địa chỉ abc'
+  }
   constructor() {}
 
   ngOnInit(): void {}
