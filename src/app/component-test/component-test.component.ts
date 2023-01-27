@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ComponentTestComponent implements OnInit {
   bind_title = 'Xin chao';
   public name: string = 'ahihi'; // dữ liệu muốn hiển thị sang view (file html)
-  public imgLink : string = "https://image.shutterstock.com/image-photo/bright-spring-view-cameo-island-260nw-1048185397.jpg";
+  public imgLink : string = "assets/images/avata.jpg";
   public tbBorder : number = 1;
   public tbWidth : number = 1;
   public isBorder : boolean = true;
