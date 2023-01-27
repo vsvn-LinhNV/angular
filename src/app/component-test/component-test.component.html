@@ -1,2 +1,23 @@
-<p >component-test works!</p>
 <h1>{{bind_title}}</h1>
+<img [src]="imgLink" width="600" [alt]="'hinh anh'">
+<table [attr.border]="tbBorder" [attr.width]="tbWidth" [class.table-bordered]="isBorder">
+    <tr>
+        <td>ID</td>
+        <td>Họ Tên</td>
+        <td>SDT</td>
+    </tr><tr>
+        <td>1</td>
+        <td>Linh</td>
+        <td>037 434 0111</td>
+    </tr>
+</table>
+
+<div
+    [style.background-color]="isSpecial ? 'red' : 'yellow'"
+    [style.color]="'white'"
+    [style.font-size.px]="size"
+>
+    Angular
+</div>
+
+
