@@ -1,0 +1,41 @@
+name: Create Release ZIP
+
+on:
+  push:
+    branches:
+      - release  # Trigger action khi có push vào nhánh release
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js (nếu cần thiết)
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'  # Thay đổi theo phiên bản Node.js nếu bạn dùng
+
+    - name: Install dependencies (nếu cần thiết)
+      run: |
+        npm install  # Thêm lệnh này nếu bạn có phụ thuộc npm, hoặc lệnh khác tương ứng với dự án của bạn.
+
+    - name: Create release.zip
+      run: |
+        # Tạo file zip từ mã nguồn
+        zip -r release.zip .  # Tạo file release.zip chứa toàn bộ mã nguồn
+
+    - name: Upload release.zip as artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: release.zip
+        path: release.zip
+
+    - name: Create release on GitHub
+      uses: softprops/action-gh-release@v1
+      with:
+        files: release.zip
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
