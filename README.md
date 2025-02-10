@@ -14,7 +14,7 @@ Error: src/app/bind-event/bind-event.component.ts:16:13 - error TS7006: Paramete
 onClickMe(event)
 =====> onClickMe(event:any)
 
-
+AAAAA
 
 ### References
 https://viblo.asia/p/tim-hieu-ve-angular-djeZ1e0gZWz
