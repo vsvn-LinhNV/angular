@@ -1,8 +1,8 @@
 ### Run
 CCCCC
 
-UUUUUUUUUUUUUUUUUUU
-CCCCCCCCCCCCCCCCC
+
+Tạo ra nhanh một component
 ng g c component-name
 ng g c bind_event
 ng g c form
