@@ -1,5 +1,5 @@
 ### Run
-ng serve –open ( hoặc ng serve –o, ng serve --o --port 3000 )
+AAAAAAAAAAAAAAA
 
 
 Tạo ra nhanh một component
