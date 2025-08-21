@@ -1,8 +1,8 @@
 ### Run
 AAAAAAAAAAAAAAA
 
-
-Tạo ra nhanh một component
+UUUUUUUUUUUUUUUUUUU
+CCCCCCCCCCCCCCCCC
 ng g c component-name
 ng g c bind_event
 ng g c form
