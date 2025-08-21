@@ -2,8 +2,8 @@
 CCCCC
 
 
-Tạo ra nhanh một component
-ng g c component-name
+BBBBBBBBBBB
+CCCCCCCCCCCCC
 ng g c bind_event
 ng g c form
 ng g c tranfer_data
