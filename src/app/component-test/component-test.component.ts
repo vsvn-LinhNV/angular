@@ -15,8 +15,8 @@ export class ComponentTestComponent implements OnInit {
   public isSpecial : boolean = true; // dữ liệu muốn hiển th�? sang view
   public size : number = 20; // dữ liệu muốn hiển th�? sang view
   user = {
-    name: 'xyz',
-    addr: 'LINH TEST'
+    name: 'Abc',
+    addr: 'KKKKKKKKKKKKKKKKKKKKKKKKKKKKKkkk'
   }
   constructor() {}
 
