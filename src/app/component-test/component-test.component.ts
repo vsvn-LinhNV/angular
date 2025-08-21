@@ -7,16 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ComponentTestComponent implements OnInit {
   bind_title = 'Xin chao';
-  public name: string = 'ahihi'; // dữ liệu muốn hiển thị sang view (file html)
+  public name: string = 'ahihi'; // dữ liệu muốn hiển th�? sang view (file html)
   public imgLink : string = "assets/images/avata.jpg";
   public tbBorder : number = 1;
   public tbWidth : number = 1;
   public isBorder : boolean = true;
-  public isSpecial : boolean = true; // dữ liệu muốn hiển thị sang view
-  public size : number = 20; // dữ liệu muốn hiển thị sang view
+  public isSpecial : boolean = true; // dữ liệu muốn hiển th�? sang view
+  public size : number = 20; // dữ liệu muốn hiển th�? sang view
   user = {
-    name: 'Abc',
-    addr: 'Địa chỉ abc'
+    name: 'xyz',
+    addr: 'LINH TEST'
   }
   constructor() {}
 
